@@ -1,0 +1,62 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Reenie+Beanie&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@400;600;700&family=Reenie+Beanie&display=swap');
+    /*Font-2
+font-family: 'Reenie Beanie', cursive;*/
+    
+    * {
+        font-family: 'Mulish', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        color: hsl(211, 24%, 17%);
+        text-decoration: none;
+    }
+    /* Navigation Menu */
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* main */
+        padding: 12px 16px;
+        border-radius: 31px;
+        height: 44px;
+        width: 106px;
+        background: #6842EF;
+        color: white;
+        border: none;
+    }
+    
+    #bullet {
+        padding: 24px;
+    }
+    
+    .navLink {
+        list-style: none;
+        padding: 0px 10px;
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /* Hero Section */
+    
+    .iconEmoji {}
+    
+    .titleTab {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 6px 8px;
+        border-radius: 27px;
+        background: hsla(253, 84%, 60%, 0.122);
+        font-size: small;
+    }
