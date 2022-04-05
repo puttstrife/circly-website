@@ -1,13 +1,22 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Reenie+Beanie&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@400;600;700&family=Reenie+Beanie&display=swap');
-    /*Font-2
-font-family: 'Reenie Beanie', cursive;*/
+     :root {
+        --violet: hsl(253, 84%, 60%, 1);
+        --light-violet: hsl(253, 84%, 60%, 0.12);
+        --light-blue: hsl(209, 100%, 1);
+        --brown: hsl(42, 97%, 36%, 1);
+        --red: hsl(2, 100%, 63%, 1);
+        --green: hsl(150, 100%, 34%, 1);
+        --dark-grey: hsl(211, 26%, 16%, 1);
+        --light-grey: hsl(208, 13%, 45%, 1);
+        --pink: rgb(255, 209, 221, 1);
+    }
     
     * {
         font-family: 'Mulish', sans-serif;
         margin: 0px;
         padding: 0px;
-        color: hsl(211, 24%, 17%);
+        color: var(--dark-grey);
         text-decoration: none;
         box-sizing: border-box;
     }
@@ -35,7 +44,7 @@ font-family: 'Reenie Beanie', cursive;*/
         /* main */
         padding: 12px 16px;
         border-radius: 31px;
-        background: #6842EF;
+        background: var(--violet);
         color: white;
         border: none;
         /* typography */
@@ -96,7 +105,7 @@ font-family: 'Reenie Beanie', cursive;*/
         justify-content: space-around;
         padding: 6px 8px;
         border-radius: 27px;
-        background: hsla(253, 84%, 60%, 0.122);
+        background: var(--light-violet);
         width: 155px;
         height: 36px;
         /* typography */
@@ -105,7 +114,7 @@ font-family: 'Reenie Beanie', cursive;*/
         line-height: 24px;
         letter-spacing: 0px;
         text-align: left;
-        color: #6842EF;
+        color: var(--violet);
     }
     
     .heroText {
@@ -127,5 +136,5 @@ font-family: 'Reenie Beanie', cursive;*/
         line-height: 42px;
         letter-spacing: 1px;
         text-align: left;
-        color: #637381;
+        color: var(--light-grey);
     }
